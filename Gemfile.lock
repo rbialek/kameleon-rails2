@@ -1,0 +1,73 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.14)
+      actionpack (= 2.3.14)
+    actionpack (2.3.14)
+      activesupport (= 2.3.14)
+      rack (~> 1.1.0)
+    activerecord (2.3.14)
+      activesupport (= 2.3.14)
+    activeresource (2.3.14)
+      activesupport (= 2.3.14)
+    activesupport (2.3.14)
+    addressable (2.3.2)
+    capybara (1.1.2)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 2.0)
+      xpath (~> 0.1.4)
+    childprocess (0.3.5)
+      ffi (~> 1.0, >= 1.0.6)
+    diff-lcs (1.1.3)
+    ffi (1.1.5)
+    headless (0.3.1)
+    kameleon (0.2.0)
+      capybara
+      headless
+      rspec
+    libwebsocket (0.1.5)
+      addressable
+    mime-types (1.19)
+    multi_json (1.3.6)
+    nokogiri (1.5.5)
+    rack (1.1.3)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rails (2.3.14)
+      actionmailer (= 2.3.14)
+      actionpack (= 2.3.14)
+      activerecord (= 2.3.14)
+      activeresource (= 2.3.14)
+      activesupport (= 2.3.14)
+      rake (>= 0.8.3)
+    rake (0.9.2.2)
+    rspec (2.11.0)
+      rspec-core (~> 2.11.0)
+      rspec-expectations (~> 2.11.0)
+      rspec-mocks (~> 2.11.0)
+    rspec-core (2.11.1)
+    rspec-expectations (2.11.3)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.11.3)
+    rubyzip (0.9.9)
+    selenium-webdriver (2.25.0)
+      childprocess (>= 0.2.5)
+      libwebsocket (~> 0.1.3)
+      multi_json (~> 1.0)
+      rubyzip
+    sqlite3 (1.3.6)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
+    xpath (0.1.4)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kameleon
+  rails (~> 2.3.14)
+  sqlite3-ruby
