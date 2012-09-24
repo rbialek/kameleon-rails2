@@ -5,3 +5,12 @@ Currently the setup includes:
 - rails 2.3.14
 - bunlder
 - kameleon
+
+
+To run:
+
+- git clone
+- bundle install
+- rspec (execute the testing script)
+
+
