@@ -1,12 +1,14 @@
 require 'spec_helper'
 
 describe 'Items' do
-  context "Check basic item link", :js => false do
+  context "Check basic item link", :js => true do
     it "sees new item link" do
       visit "/items"
       see "New item"
     end
+
     it "uses new item link" do
+      visit "/items"
       click "New item"
       see "Title"
       click "Create"
